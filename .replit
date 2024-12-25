@@ -1,8 +1,8 @@
-modules = ["python-3.12"]
-run = "Entry point = \"Day-1-band-name-again.py\""
+run = "Day-1-band-name-again.py\"
 
 [nix]
 channel = "stable-24_05"
 
 [deployment]
 run = ["sh", "-c", "Entry point = \"Day-1-band-name-again.py\""]
+modules = ["python-3.12"]
