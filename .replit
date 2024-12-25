@@ -1,1 +1,8 @@
-run = "python Day-1-band-name-again.py\"
+modules = ["python-3.12"]
+run = "python \Day-001\Day-1-band-name-again.py\,"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "Run = \"python Day-1-band-name-again.py\","]
